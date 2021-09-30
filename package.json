@@ -1,0 +1,22 @@
+{
+  "name": "mineflayer-gym",
+  "version": "1.0.0",
+  "description": "Environement for training RL agents for mineflayer",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "standard",
+    "fix": "standard --fix"
+  },
+  "author": "Karang",
+  "license": "MIT",
+  "dependencies": {
+    "nodeplotlib": "^0.7.5",
+    "prismarine-block": "^1.10.3",
+    "prismarine-physics": "^1.3.1",
+    "seedrandom": "^3.0.5"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
